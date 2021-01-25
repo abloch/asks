@@ -27,7 +27,7 @@ Above you'll find detailed docs with a large number of simple examples to help y
 # one request
 # A little silly to async one request, but not without its use!
 import asks
-import anyio
+import curio
 
 async def example():
     r = await asks.get('https://example.org')
